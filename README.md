@@ -3,7 +3,7 @@
 ## Description
 This web tool provides a seamless interface for accessing forex data through APIs and widgets. It simplifies the process of integrating forex data into applications and websites, offering a free API for fetching pricing data and comprehensive API documentation.
 
-**Demo link --**
+**Demo link --** https://liveforexprice.netlify.app/
 
 ## Features
 - **Free API Access:** Get real-time pricing data using our free API.
