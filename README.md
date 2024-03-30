@@ -3,6 +3,8 @@
 ## Description
 This web tool provides a seamless interface for accessing forex data through APIs and widgets. It simplifies the process of integrating forex data into applications and websites, offering a free API for fetching pricing data and comprehensive API documentation.
 
+**Demo link --**
+
 ## Features
 - **Free API Access:** Get real-time pricing data using our free API.
 - **API Documentation:** Explore comprehensive documentation for integrating forex APIs into your applications.
@@ -29,11 +31,7 @@ cd forex-api-tool
 ```
 
 ## Support
-For any questions, issues, or feedback, please contact us at [contact@example.com](mailto:contact@example.com).
+For any questions, issues, or feedback, please contact us at [contact@example.com](amit.websitedev@gmail.com).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README file further to include specific installation instructions or additional details about your project.
