@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Forex Prices</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- Your logo image or text -->
+            <a href="#">
+                <img src="/logo white.png" alt="Your Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <!-- Your navigation links
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="banner">
+        <video autoplay muted loop class="video-background">
+            <source src="/204306 (1440p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="left-column">
+            <h1>The Faster Way Live Rates</h1>
+            <p>Live streaming FXPricing rates of the world currency pair including daily changes and updates. Technical
+                indicators and pivot points last traded in the interbank market. It is updated every 05 minutes.</p>
+                <button class="free-api" onclick="window.open('https://fxpricing.com/widget', '_blank')">Free API</button>
+                <button class="api-docu" onclick="window.open('https://fcsapi.com/document/forex-api', '_blank')">API Documentation</button>
+
+
+        </div>
+        <div class="right-column">
+            <!-- Widget goes here -->
+            <iframe
+                src="https://fxpricing.com/fx-widget/ticker-quote-widget.php?id=2,3,5,25&border=show&fcs_link=hide&click_target=blank&theme=transparent&by-cr=28A745&sl-cr=DC3545&lang=en&font=Arial, sans-serif"
+                width="555" height="340" style="border: unset;">
+            </iframe>
+            
+        </div>
+    </div>
+
+
+    <div class="scrolling-widget">
+        <iframe src="https://fxpricing.com/fx-widget/ticker-tape-widget.php?id=1,2,3,5,14,25&border=show&speed=50&click_target=blank&theme=light&tm-cr=FFFFFF&hr-cr=00000013&by-cr=28A745&sl-cr=DC3545&flags=circle&d_mode=compact-name&column=ask,bid,spread,chg_per&lang=en&font=Arial, sans-serif" width="100%" height="85" style="border: unset;"></iframe>
+    </div>
+
+    <h2 class="forex-cross-rates">Forex Cross Rates</h2>
+    <div class="number-showing">
+        <div id="fx-widget-container">
+            <iframe
+                src="https://fxpricing.com/fx-widget/forex-cross-rates.php?symbol=EUR,USD,CHF,JPY,GBP,NZD,AED&click_target=blank&theme=light&tm-cr=FFFFFF&hr-cr=00000013&flags=circle&font=Arial, sans-serif"
+                width="100%" height="370" style="border: unset;"></iframe>
+        </div>
+        <div class="Side-widget">
+            <!-- Widget goes here -->
+            <iframe
+                src="https://fxpricing.com/fx-widget/single-ticker-widget.php?id=25&border=show&click_target=blank&theme=light&tm-cr=FFFFFF&hr-cr=00000013&by-cr=28A745&sl-cr=DC3545&flags=circle&value_alignment=center&column=chg,chg_per&lang=en&font=Arial, sans-serif"
+                width="100%" height="100" style="border: unset;"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="/logo white.png" alt="Logo">
+            </div>
+            <nav class="footer-menu">
+                <ul>
+                    <!-- <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#fx-widget-container {
+    border-radius: 10px;
+    box-shadow: 3px 5px 9px 0px #ededed ;
+    width: 80%;
+    border: 1px solid #eee;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    /* Ensure video doesn't overflow */
+    display: flex;
+}
+
+.left-column {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    /* Ensure video is behind other content */
+}
+
+
+.left-column::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url('/path/to/your-image.jpg') center center/cover no-repeat; */
+    z-index: -1;
+}
+
+.left-column,
+.right-column {
+    padding: 80px;
+    flex: 1;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+/* .right-column {
+    /* Add your styles for the right column here 
+} */
+
+.quote-widget-container.border {
+    border: 1px solid #ffffff26 !important;
+}
+
+.left-column h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.left-column p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#fx-widget-container {
+    padding: 30px;
+    /* Adjust as needed */
+}
+
+.number-showing {
+    /* padding-top: 80px; */
+    display: flex;
+    position: relative;
+
+}
+
+h2.forex-cross-rates {
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#fx-pricing-widget-copyright {
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9db2bd;
+}
+
+#fx-pricing-widget-copyright a {
+    text-decoration: unset;
+    color: #bb3534;
+    font-weight: 600;
+}
+
+div#fx-pricing-widget-copyright {
+    margin-right: 30px;
+}
+
+.Side-widget {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 3px 5px 9px 0px #ededed;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.single-ticker-main.border {
+    border-radius: 5px;
+}
+
+/* Add any additional CSS styles here */
+.banner {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    /* Ensures no white space */
+    padding: 20px;
+    /* Adjust as needed */
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+}
+
+/* .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* Adjust text color as needed 
+}*/
+ /*
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    Add spacing between left and right columns 
+} */
+
+.number-showing {
+    display: flex;
+    justify-content: space-between;
+    /* Ensures no white space */
+    padding: 20px;
+    /* Adjust as needed */
+}
+
+
+.forex-cross-rates {
+    text-align: center;
+    margin-top: 20px;
+    /* Adjust margin as needed */
+}
+
+#fx-pricing-widget-copyright {
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9db2bd;
+}
+
+#fx-pricing-widget-copyright a {
+    text-decoration: unset;
+    color: #bb3534;
+    font-weight: 600;
+}
+
+.left-column button {
+    border: 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.free-api {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    background: #259b41;
+    padding: 17px 50px 17px 50px;
+}
+
+button.api-docu {
+    cursor: pointer;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #dc3545;
+    padding: 17px 50px 17px 50px;
+}
+
+
+button.api-docu:hover {
+    background: #b92534;
+    
+}
+
+
+.free-api:hover {
+    background: #14722a;
+
+}
+
+
+/* --------------Web header -------------------------------- */
+
+
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+header {
+    margin-bottom: -90px;
+    background-color: #3330; /* Example background color */
+    padding: 20px 100px 20px 100px;
+    color: #fff; /* Example text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo img {
+    width: 100px; /* Adjust width as needed */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    color: #fff; /* Example text color */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Example hover effect */
+}
+
+/* Button styles */
+.button1, .button2 {
+    /* Button styles */
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.button1:hover, .button2:hover {
+    /* Hover styles */
+    background-color: #ccc; /* Example hover background color */
+    color: #333; /* Example hover text color */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* Adjust header layout for smaller screens */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+footer {
+    /* border-top: 1px solid #6e0000; */
+    margin-top: 80px;
+    background-color: #000000;
+    /* background-color: #333; */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto; /* Center the logo */
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-menu ul li {
+    margin-right: 20px;
+}
+
+.footer-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
